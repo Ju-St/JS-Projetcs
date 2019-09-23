@@ -1,0 +1,2 @@
+Folder 'public' should be set as a vhost directory, 'private' folder contains db.php(credentials for database connection), crud.sql(sql syntax, it's ready to import via phpmyadmin) and .htaccess file which denies direct access.
+If you have any questions - stoyanov.julian@gmail.com
