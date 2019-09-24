@@ -48,7 +48,7 @@ if (isset($_POST['submit'])) {
 
 // Using a different approach for the update query
 if (isset($_POST['update'])) {
-  // We get the id value from the hidden input field of the form (no need for sanitization, because it's a hidden field and can't be modified)
+  // We get the id value from the hidden input field of the form
   $id = $_POST['id'];
   // Use global variables that we sanitized earlier
   global $fname,$lname,$email,$message;
